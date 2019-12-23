@@ -1,0 +1,15 @@
+{
+  "name": "nodeTypeScript",
+  "author": {
+    "email": "suporte2424@outlook.com",
+    "name": "Claudio Silva Junior"
+  },
+  "scripts": {
+    "dev": "sucrase-node src/index.ts",
+    "build": ""
+  },
+  "devDependencies": {
+    "sucrase": "^3.11.0",
+    "typescript": "^3.7.4"
+  }
+}
