@@ -1,3 +1,3 @@
-const a: number = 5
+import app from './app'
 
-console.debug(a)
+app.listen(3003)

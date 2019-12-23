@@ -1,24 +1,22 @@
-module.exports = {
-  env: {
-    node: true,
-    es6: true
+module.exports = 
+{
+  "env": {
+    "es6": true,
+    "node": true
   },
-  extends: [
-    'prettier/@typescript-eslint',
-    'standard'
-  ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+  "extends": ["airbnb-base"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module'
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
-  plugins: [
-    '@typescript-eslint'
-  ],
-  rules: {
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "comma-dangle": "off",
+    "arrow-body-style": "off"
   }
 }
